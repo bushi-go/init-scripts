@@ -2,7 +2,7 @@
 
 # Generate ssh key for provided keyPathMap, add to ssh-agent, and print public key to add to keyPathMap
 SSH_CONFIG_FILE="$HOME/.ssh/config"
-SSH_PASSWORD_FILE="$HOME/.ssh/passwords"
+SSH_PASSWORD_FILE="/tmp/passwords"
 # backup ssh config file
 mv -f "$SSH_CONFIG_FILE" "$SSH_CONFIG_FILE.old"
 
